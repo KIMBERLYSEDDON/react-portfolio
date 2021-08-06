@@ -10,8 +10,7 @@ const emailIcon = <FontAwesomeIcon icon={faEnvelope} />
 
 export default function Footer() {
     return (
-        <footer className="footer" style={{position: "absolute", bottom: "0"}}>
-          <div className="m-auto">
+        <footer className="footer mx-auto w-100" style={{position: "relative", bottom: "0"}}>
           <span className="contactIcon p-3">
             <a href="https://github.com/KIMBERLYSEDDON">
           <icon style={{fontSize:"40px", color:"#89388C"}}>{githubIcon}</icon>
@@ -27,8 +26,7 @@ export default function Footer() {
           <icon style={{fontSize:"40px", color:"#89388C"}}>{emailIcon}</icon>
           </a>
           </span>
-        <p className="m-auto">Thanks for viewing!</p>
-        </div>
+        <p className="mx-auto">Thanks for viewing!</p>
       </footer>
     )
 }
