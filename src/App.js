@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header'
+import Footer from './components/Footer'
+import PortfolioRender from "./components/PortfolioRender";
+import bgImg from "./images/bgclouds.jpg"
+export default function App() {
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+<div style={{backgroundImage: "url(" + bgImg + ")", backgroundSize: "cover", height: "100vh"}}>
+<Header />
+<PortfolioRender />;
+<Footer />
+</div>
+    )
+
 }
-
-export default App;
