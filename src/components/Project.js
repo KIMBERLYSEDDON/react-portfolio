@@ -13,7 +13,8 @@ export default function Project({ projects }) {
                 {project.description}
             </p>
             <p className="card-text">
-                {project.tech}
+              
+                { project.tech[0] } { project.tech[1] } { project.tech[2] } { project.tech[3] } { project.tech[4] } { project.tech[5] }
             </p>
           </div>
         </div>
