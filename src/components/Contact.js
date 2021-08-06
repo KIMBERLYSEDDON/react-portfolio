@@ -20,7 +20,7 @@ export default function Contact() {
   }
 
   return (
-    <form className="w-50 p-3">
+    <form className="w-50 p-5 m-auto">
       <div class="mb-3">
         <label for="email" class="form-label">
           Email address
@@ -42,6 +42,7 @@ export default function Contact() {
           rows="3"
         ></textarea>
       </div>
+      <input className="button" style={{backgroundColor: "#89388C", color: "white"}} type="submit" value="Send" />
     </form>
 
     /* <form className="contact-form" onSubmit={sendEmail}>

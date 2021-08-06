@@ -6,9 +6,11 @@ import bgImg from "./images/bgclouds.jpg"
 export default function App() {
 
     return (
-<div style={{backgroundImage: "url(" + bgImg + ")", backgroundSize: "cover", height: "100vh"}}>
+<div style={{backgroundImage: "url(" + bgImg + ")", backgroundSize: "cover"}}>
 <Header />
-<PortfolioRender />;
+<div  className="container p-3">
+<PortfolioRender />
+</div>
 <Footer />
 </div>
     )
