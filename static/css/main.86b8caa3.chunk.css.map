@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/styles/Navigation.css"],"names":[],"mappings":"AAAA,WACI,aAAc,CACd,cACJ","file":"main.86b8caa3.chunk.css","sourcesContent":[".navLink a {\r\n    color: #89388C;\r\n    font-size: 2rem;\r\n}"]}
