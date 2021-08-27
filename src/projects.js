@@ -2,9 +2,18 @@ import CommunityCanvas from './images/community-canvas.png'
 import CreativeCorner from './images/creative-corner-in-progress.png'
 import TechBlog from './images/tech-blog.png'
 import Weather from './images/weather-dash.png'
-import WorkDay from './images/word-sched.png'
+import Bucket from './images/screencap.jpg'
 import Notes from './images/note-taker.gif'
 const projects = [
+{
+    title: 'Bucket',
+    description: 'A full stack MERN social app to connect adventurous bucket list go-getters together',
+    preview: Bucket,
+    tech: ['Express/Apollo', 'Mongo/Mongooge', 'GraphQl', 'Cloudinary', 'React', 'Material-Ui', 'MapBox', 'JavaScript/Node'],
+    link: 'https://buucket.herokuapp.com/',
+    repo: 'https://github.com/KIMBERLYSEDDON/project-bucket'  
+    
+},
 {
     title: 'Community Canvas',
     description: 'A place for users to share and view street art found in their communities.',
@@ -38,15 +47,6 @@ const projects = [
     tech: ['Local Storage', 'JavaScript', 'Moment.js', 'Open Weather API'],
     link: 'https://kimberlyseddon.github.io/weather-dashboard/',
     repo: 'https://github.com/KIMBERLYSEDDON/weather-dashboard'  
-
-},
-{
-    title: 'Work Day Scheduler',
-    description: 'An easy to use workday scheduler that is color coded based on time',
-    preview: WorkDay,
-    tech: ['Moment.js', 'Local Storage', 'JavaScript'],
-    link: 'https://kimberlyseddon.github.io/work-day-scheduler/',
-    repo: 'https://github.com/KIMBERLYSEDDON/work-day-scheduler'  
 
 },
 {

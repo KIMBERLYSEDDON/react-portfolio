@@ -1,4 +1,9 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink, faCodeBranch } from "@fortawesome/free-solid-svg-icons";
+
+const repo = <FontAwesomeIcon icon={faCodeBranch} />;
+const linkR = <FontAwesomeIcon icon={faLink} />;
 
 export default function Project({ projects }) {
   return (
@@ -16,7 +21,7 @@ export default function Project({ projects }) {
               src={project.preview}
               className="card-img-top p-2"
               style={{ borderRadius: "20px" }}
-              alt="..."
+              alt={project.description}
             />
             <div className="card-body">
               <h5 className="card-title">{project.title}</h5>
@@ -26,12 +31,12 @@ export default function Project({ projects }) {
                 {project.tech[3]} {project.tech[4]} {project.tech[5]}
               </p>
             </div>
-            <div className="row">
+            <div className="container text-center">
             <a href={project.repo} className="card-link" style={{color: "#89388C", fontSize: "20px"}}>
-              repo
+            <icon>{linkR}</icon>
             </a>
             <a href={project.link} className="card-link" style={{color: "#89388C", fontSize: "20px"}}>
-              website
+            <icon>{repo}</icon>
             </a>
             </div>
           </div>
