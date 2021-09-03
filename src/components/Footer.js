@@ -29,14 +29,20 @@ export default function Footer() {
             </icon>
           </a>
         </span>
-        <span className="contactIcon p-3">
+        {/* <span className="contactIcon p-3">
           <a href="https://github.com/KIMBERLYSEDDON">
             <icon style={{ fontSize: "40px", color: "#89388C" }}>
               {emailIcon}
             </icon>
           </a>
-        </span>
-        <p className="mx-auto">Thanks for viewing!</p>
+        </span> */}
+        
+        <p className="mx-auto" style={{textShadow: "1px 0px #89388C", color: "#5a205c", fontSize: "20px"}}>
+        <icon style={{ fontSize: "20px", color: "#89388C" }}>
+              {emailIcon}    
+              </icon>
+                SeddonKimberly17@gmail.com
+            </p>
       </div>
     </footer>
   );
